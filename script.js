@@ -1,4 +1,4 @@
-//OBS: o código abaixo foi editado para manter a confidencialidade dos dados utilizados
+//OBS: o código abaixo foi editado para manter a confidencialidade dos dados utilizados portanto não funcionará como deve!
 //função para envio de email
 function envEmail() {
 
