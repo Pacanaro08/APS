@@ -1,0 +1,238 @@
+.mainBackground{
+    background: 
+    radial-gradient(calc(1.28*23px + 8.63px/2) at left 50% bottom calc(-.8*23px),#a52a2a calc(100% - 8.63px),#e57979 calc(101% - 8.63px) 100%,#0000 101%) calc(2*23px) calc(-1*calc(1.5*23px + 8.63px)),
+    radial-gradient(calc(1.28*23px + 8.63px/2) at left 50% bottom calc(-.8*23px),#d65f5f calc(100% - 8.63px),#e57979 calc(101% - 8.63px) 100%,#0000 101%) calc(-1*23px) calc(calc(1.5*23px + 8.63px)/-2),
+    radial-gradient(calc(1.28*23px + 8.63px/2) at left 50% top    calc(-.8*23px),#d65f5f calc(100% - 8.63px),#e57979 calc(101% - 8.63px) 100%,#0000 101%) 0 calc(1.5*23px + 8.63px),
+    radial-gradient(calc(1.28*23px + 8.63px/2) at left 50% top    calc(-.8*23px),#a52a2a calc(100% - 8.63px),#e57979 calc(101% - 8.63px) 100%,#0000 101%) 23px calc(calc(1.5*23px + 8.63px)/ 2),
+    linear-gradient(#a52a2a 50%,#d65f5f 0);
+    background-size: calc(4*23px) calc(1.5*23px + 8.63px);
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+input{
+    border-radius: 5px;
+}
+
+#hr{
+    border: 1px solid rgb(94, 19, 19);
+    max-width: 75%;
+}
+
+.textBody{
+    padding: 15px 40px;
+}
+
+.textBodySolved{
+    color: black;
+    padding: 15px 40px;
+}
+
+.data{
+    display: block;
+    background-color: rgb(58, 58, 58);
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px 0;
+    max-width: 75%;
+}
+
+.dataSolved{
+    display: block;
+    background-color: rgb(203, 219, 178);
+    margin: auto;
+    max-width: 75%;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.dataHeader{
+    display: block;
+    background-color: rgb(58, 58, 58);
+    border-radius: 5px;
+    margin: auto;
+    max-width: 75%;
+    padding: 10px 0;
+}
+
+#footer{
+    max-width: 75%;
+    display: block;
+    margin: auto;
+    padding-bottom: 7px;
+    border-top: 1px solid rgb(33, 107, 50);
+    background-color: rgb(45, 133, 65);
+}
+
+.card{
+    max-width: 400px;
+    display: block;
+    margin: 15px;
+    word-wrap: break-word;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(61, 67, 87);
+    border-radius: 15px;
+}
+
+.cardSolved{
+    max-width: 400px;
+    word-wrap: break-word;
+    display: block;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(45, 133, 65);
+    border-radius: 15px;
+}
+
+@media (min-width: 500px)  {
+    
+    .gridRow{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    .gridColumn{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 15px auto;
+    }
+
+    #gridRow{
+        display: grid;
+        grid-template-rows: auto;
+    }
+
+    #gridColumn{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+#card{
+    display: block;
+    text-align: center;
+}
+
+#cardStudents{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkcyan;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    border-radius: 8px;
+}
+
+#headerMain{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+#subtitleHeader{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    word-wrap: normal;
+}
+
+#sideNavigation a{
+    position: fixed;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 0 5px 5px 0;
+}
+
+#sideNavigation a:hover{
+    left: 0;
+}
+
+#students {
+    top: 20px;
+    background-color: darkcyan;
+}
+
+#cardStudentsBg{
+    background-color: rgb(58, 58, 58);
+}
+
+#imgFitScreen{
+    display: block;
+    margin: auto;
+    width: 75%;
+    max-width: 700px;
+    height: auto;
+    border: 1px solid black;
+}
+
+#imgFitScreenBGWhite{
+    display: block;
+    margin: auto;
+    background-color: white;
+    width: 75%;
+    max-width: 700px;
+    height: auto;
+    border: 1px solid black;
+}
+
+#h4Solved{
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    word-wrap: normal;
+}
+
+#imgUnip{
+    display: block;
+    margin: 15px auto;
+    background-color: rgb(7, 94, 189);
+    max-width: 200px;
+    padding: 5px;
+}
+
+#btnEnvEmail{
+    width: 30px;
+    height: 20px;
+}
