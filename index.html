@@ -8,20 +8,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> <!--estilo da Font Awesome -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script><!--script para funcionamento do AJAX -->
     <script src="./script.js"></script> <!--script das funções -->
-    <title>Desmatamento na Amazônia</title> <!--título do documento -->
+    <title>Desmatamento na Amazônia</title> <!--padrão de codificação -->
 </head>
 
 <body class="mainBackground"> <!--corpo com informação -->
     <!--título do tema -->
     <div id="dataHead" class="dataHeader">
         <h1 id="headerMain">Desmatamento na Amazônia: Impactos e Prevenção</h1>
-        <h4 id="subtitleHeader">"A maior floresta tropical do mundo é peça-chave para o equilíbrio do clima global,
+        <h4 class="subtitleHeader">"A maior floresta tropical do mundo é peça-chave para o equilíbrio do clima global,
             para
             a proteção da biodiversidade e para a qualidade de vida, mesmo de quem vive longe dela."</h4>
     </div>
-    <!--botão com informações dos autores -->
+    <!--ancoragem -->
+    <div id="sideNavigation" class="sideNavigation">
+        <a href="#" id="top">Topo</a>
+    </div>
     <div id="sideNavigation" class="sideNavigation">
         <a href="./alunos.html" id="students">Alunos</a>
+    </div>
+    <div id="sideNavigation">
+        <a href="#impactsDiv" id="impacts">Impactos</a>
+    </div>
+    <div id="sideNavigation">
+        <a href="#graphsDiv" id="graphs">Dados</a>
+    </div>
+    <div id="sideNavigation">
+        <a href="#solutionDiv" id="solutions">Solução</a>
     </div>
     <hr id="hr">
     <div class="data">
@@ -34,8 +46,8 @@
                 adversos sobre o meio ambiente, a biodiversidade e o clima.</p>
         </section>
         <!--grid com cards para melhor visualização das informações -->
-        <section>
-            <h4 id="subtitleHeader">QUAIS SÃO OS IMPACTOS DO DESMATAMENTO?</h4>
+        <section id="impactsDiv">
+            <h4 class="subtitleHeader">QUAIS SÃO OS IMPACTOS DO DESMATAMENTO?</h4>
             <div class="gridRow">
                 <div class="gridColumn">
                     <div class="card">
@@ -68,7 +80,7 @@
                 </div>
         </section>
         <!--mais informações sobre o tema -->
-        <section>
+        <section id="graphsDiv">
             <p class="textBody">Em setembro, a Amazônia registrou seu sexto mês seguido de diminuição do desmatamento,
                 conforme indicado pelos dados do Imazon. Como resultado, o total de floresta derrubada nos primeiros
                 nove meses de 2023 foi quase três vezes menor em comparação com o mesmo período de 2022, caindo de 9.069
@@ -115,7 +127,7 @@
     </div>
     <hr id="hr">
     <!--soluções to tema apresentado -->
-    <div class="dataSolved">
+    <div class="dataSolved" id="solutionDiv">
         <section>
             <h4 id="h4Solved">COMO DEVEMOS CUIDAR DA AMAZÔNIA?</h4>
             <p class="textBodySolved">Cuidar da Amazônia envolve uma abordagem holística e multifacetada, dadas as suas

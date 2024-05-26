@@ -166,7 +166,7 @@ input{
     word-wrap: break-word;
 }
 
-#subtitleHeader{
+.subtitleHeader{
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
@@ -175,7 +175,7 @@ input{
 
 #sideNavigation a{
     position: fixed;
-    left: -80px;
+    left: -60px;
     transition: 0.3s;
     padding: 15px;
     width: 100px;
@@ -189,6 +189,26 @@ input{
 }
 
 #students {
+    top: 260px;
+    background-color: darkcyan;
+}
+
+#impacts{
+    top: 80px;
+    background-color: darkcyan;
+}
+
+#graphs{
+    top: 140px;
+    background-color: darkcyan;
+}
+
+#solutions{
+    top: 200px;
+    background-color: darkcyan;
+}
+
+#top{
     top: 20px;
     background-color: darkcyan;
 }
